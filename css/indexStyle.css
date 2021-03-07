@@ -1,0 +1,70 @@
+body{
+    font-family: Courier New, monospace;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    background: #f8f9fa;
+}
+
+header{
+    background: #eff3f5;
+    padding: 10px 20px;
+    color: #000;
+    min-height: 70px;
+    border-bottom: #404b5a 5px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul{
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+}
+
+ul li{
+    display: inline-block;
+    padding: 30px;
+    margin: 50px;
+    width: 23%;
+    height: 40%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.admin{
+    background-color: #a8eeeb;
+}
+
+.login{
+    background-color: #a8eec1;
+}
+
+.signup{
+    background-color: #fdf3d7;
+}
+
+a{
+    color: #1e0233;
+}
+
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+
+.admin:hover{
+    text-decoration-color: #ff6f3d;
+    background-color: #6ed7d3;
+}
+.login:hover{
+    text-decoration-color: #ff6f3d;
+    background-color: #74d99f;
+}
+.signup:hover{
+    text-decoration-color: #ff6f3d;
+    background-color: #fae29f;
+}
